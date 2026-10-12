@@ -1,0 +1,29 @@
+======================================================================
+DYNAMIC MODEL ESTIMATION
+======================================================================
+
+Using provided starting values: [0.0, 0.0, 0.0]
+
+Timing likelihood evaluation...
+  0.000019 seconds (81 allocations: 6.375 KiB)
+  0.000015 seconds (81 allocations: 6.375 KiB)
+
+Optimizing (this may take several minutes)...
+Iter     Function value   Gradient norm 
+     0     5.545177e+01     5.000000e+00
+ * time: 0.015251874923706055
+
+======================================================================
+RESULTS
+======================================================================
+Parameter estimates:
+  θ₀ (constant):     -0.0
+  θ₁ (mileage):      -1.0986
+  θ₂ (brand):        1.0986
+
+Log likelihood:      -50.22
+Converged:           true
+Iterations:          5
+======================================================================
+Test Summary: | Pass  Total   Time
+PS5           |   66     66  16.6s

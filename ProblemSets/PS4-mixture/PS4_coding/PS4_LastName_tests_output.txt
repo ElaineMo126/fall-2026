@@ -1,0 +1,31 @@
+=== Question 3a: Quadrature Practice ===
+∫φ(x)dx = 1.0045374967517489 (should be ≈ 1)
+∫xφ(x)dx = 2.6454533008646308e-17 (should be ≈ 0)
+Exact probability on [-4,4]: 0.9999366575163338
+Seven nodes are an approximation; the density integral need not equal one exactly.
+
+=== Question 3b: Variance using Quadrature ===
+Variance with 7 quadrature points: 3.265514281891983
+Variance with 10 quadrature points: 4.038977384853661
+True variance: 4
+Absolute errors: 7 nodes = 0.7344857181080169; 10 nodes = 0.03897738485366098
+Ten nodes improve this approximation; seven nodes are too coarse over [-10,10].
+
+=== Question 3c: Monte Carlo Integration ===
+
+With D = 1000 draws:
+MC Variance: 3.9142069986712453 (true: 4)
+MC Mean: -0.06759045572225707 (true: 0)
+MC Density integral: 1.036351166079143 (true: 1)
+
+With D = 1000000 draws:
+MC Variance: 3.9977639036064154 (true: 4)
+MC Mean: 0.005621513018229351 (true: 0)
+MC Density integral: 0.9974294606520748 (true: 1)
+MC error is random and generally falls at rate 1/sqrt(D).
+Increasing D from 1,000 to 1,000,000 reduces typical sampling error by sqrt(1000), about 31.6.
+A particular draw need not improve every integral; truncation error also remains.
+Mixed logit quadrature optimization setup complete (not executed)
+Mixed logit Monte Carlo optimization setup complete (not executed)
+Test Summary:          | Pass  Total      Time
+PS4 starter-based code |   68     68  10m14.6s

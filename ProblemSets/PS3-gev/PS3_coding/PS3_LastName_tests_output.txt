@@ -1,0 +1,2 @@
+Test Summary:          | Pass  Total     Time
+PS3 starter-based code |   36     36  1m20.9s

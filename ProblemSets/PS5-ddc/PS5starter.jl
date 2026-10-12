@@ -56,9 +56,9 @@ function load_static_data()
     return df_long
 end
 
-"""
-    load_dynamic_data()
 
+    load_dynamic_data()
+"""
 Load and prepare data for dynamic estimation (Question 3+).
 Returns a named tuple with all data structures needed for estimation.
 
@@ -374,6 +374,7 @@ end
 Main wrapper function that runs all estimation procedures.
 Wrapping everything in a function (rather than running in global scope) 
 is a Julia best practice for performance.
+    """ """ called doc string (doc for document)
 """
 function main()
     println("\n" * "="^70)

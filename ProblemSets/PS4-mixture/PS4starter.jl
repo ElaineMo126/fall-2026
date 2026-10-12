@@ -1,4 +1,4 @@
-# Problem Set 4 Starter Code
+ # Problem Set 4 Starter Code
 # ECON 6343: Econometrics III
 # Multinomial and Mixed Logit Estimation
 
